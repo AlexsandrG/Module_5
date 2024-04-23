@@ -8,8 +8,9 @@ class Building:
         self.total = 40
 
     def Building_total(self):
+        for i in self.total
+            return 1
         print(self.total)
 
 
 building = Building()
-# print()
