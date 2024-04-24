@@ -4,13 +4,13 @@
 # В цикле создайте 40 объектов класса Building и выведите их на экран командой print
 
 class Building:
-    def __init__(self):
-        self.total = 40
+    total = 0
 
-    def Building_total(self):
-        for i in self.total
-            return 1
-        print(self.total)
+    def __init__(self):
+        Building.total += 1
 
 
 building = Building()
+for i in range(40):
+    new_building = Building()
+    print(new_building)
