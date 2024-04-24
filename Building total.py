@@ -11,6 +11,6 @@ class Building:
 
 
 building = Building()
-for i in range(40):
+for i in range(41):
     new_building = Building()
     print(f'Вывод обьекта класса {new_building}')
